@@ -1,3 +1,5 @@
+# PRIVACY POLICY
+
 ### Introduction
 This policy gives a description on how HumbleLogicGames (“us”, “we”, or “our”) collects, uses, shares, and protects information about you for our games on mobile devices, PCs, or on other platforms in order to provide you with excellent service and develop our products. 
 
