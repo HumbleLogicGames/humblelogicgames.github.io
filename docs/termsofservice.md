@@ -1,4 +1,4 @@
-# HUMBLELOGICGAMES TERMS OF SERVICE
+# TERMS OF SERVICE
  
 ### HumbleLogicGames Terms of Service (“Agreement”)
 These terms of service (“Terms”, “Agreement”) apply to your access and use of HumbleLogicGames’s games, websites and other services (the “Service”). Please read them carefully.
