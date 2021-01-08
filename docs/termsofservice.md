@@ -57,7 +57,7 @@ Moreover, if you have received any additional virtual goods together with those 
 
 In addition, if you have received any virtual goods or currencies as a gift, you cannot request for a purchase withdrawal for these or exchange them for cash.
 
-Purchase withdrawals can be made through our customer service (https://bitmangogames.helpshift.com/) and it will be returned to the same method you used to make the payment. When processing your purchase withdrawal request, the virtual goods and currencies will be collected, however, please understand that the time of refund will differ according to the payment method used.
+Purchase withdrawals can be made through our customer service (apps@humblelogicgames.com) and it will be returned to the same method you used to make the payment. When processing your purchase withdrawal request, the virtual goods and currencies will be collected, however, please understand that the time of refund will differ according to the payment method used.
 
 However, if there was a fault with the virtual goods and currencies you received, you can make a purchase withdrawal request within the 3 months of their purchase, or within the 30 days from the date you knew or could know about the fault, whichever comes first.
 
