@@ -188,3 +188,18 @@ vidoomy.com, 7646534, RESELLER
 xandr.com, 13799, RESELLER
 xandr.com, 14082, RESELLER
 Xapads.com, 155860, RESELLER
+applovin.com, e31116e3a1f5b05ae0f16e8b0f33f1db, DIRECT
+algorix.co, 60532, RESELLER, 5b394c12fea27a1d
+gamaigroup.com, 423056, RESELLER
+loopme.com, 11303, RESELLER, 6c8d5f95897a5a3b
+loopme.com, 11424, RESELLER, 6c8d5f95897a5a3b
+media.net, 8CUD06Z68, RESELLER
+openx.com, 540785403, RESELLER, 6a698e2ec38604c6
+pubmatic.com, 158154, RESELLER, 5d62403b186f2ace
+pubmatic.com, 158862, RESELLER, 5d62403b186f2ace
+pubmatic.com, 159509, RESELLER, 5d62403b186f2ace
+risecodes.com, 64e346c45ab8e700016b45cd, RESELLER
+rubiconproject.com, 16356, RESELLER, 0bfd66d529a55807
+smartadserver.com, 3817, RESELLER
+thebrave.io, 1234633, RESELLER, c25b2154543746ac
+video.unrulymedia.com, 322585001, RESELLER
