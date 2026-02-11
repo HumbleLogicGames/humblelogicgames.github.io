@@ -9,7 +9,7 @@ HumbleLogicGames is dedicated to transparency, data privacy, and security, and f
 
 If you have any concerns, please contact us using the methods provided in the Contact Us section of this document. If you disagree with your information being used as described in this Privacy Policy, please do not install or use the Services.
 
-This Privacy Policy was last updated on Dec 30, 2020
+This Privacy Policy was last updated on Feb 11, 2026
  
 
 ### Information Collection
