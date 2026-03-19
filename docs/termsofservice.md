@@ -8,7 +8,7 @@ These terms of service (“Terms”, “Agreement”) apply to your access and u
 ### Accepting these Terms
 If you access or use the Service, it means you agree to be bound by all of the terms below. So, before you use the Service, please read all of the terms. If you don’t agree to all of the terms below, please do not use the Service.
 
-You agree you are over 13 years old. If you are between 13 and 18 years old, you need to review and agree by your legal guardian (like parents).
+You agree you are over 13 years old (or over 14 years old if you are a resident of the Republic of Korea). If you are under the applicable minimum age or between the minimum age and 18 years old, you need to have your legal guardian (such as a parent) review and agree to these Terms on your behalf.
 
 This Agreement sets forth the legal terms for your use of the Service that are made available via the Apple App Store, Google Play, Amazon Appstore, Facebook and/or any related services related to our games.
 
