@@ -105,6 +105,9 @@ Please note that if you opt-out, you may still have advertisements in the game, 
 #### Advertising Partners
 Non-personal identifiers and other information that is collected from your device when you play our games or use our Services may be shared with advertising partners in order to deliver ads to your device. Such information may be combined with information that our advertising partners collect separately to serve you with more relevant ads (targeted ads) and to enhance the accuracy of their targeting. For more information we recommend for you to scan through our partners' privacy policies on their websites
 
+* Google AdMob - https://policies.google.com/privacy
+* Yandex Mobile Ads - https://yandex.com/legal/confidential/
+
 
 #### Ad Identifiers
 We use ad identifiers that are non-permanent, non-personal identifiers such as the Android and/or Apple's ID for advertising associated with your device, and similar technologies such as tracking pixels within ads to provide interest-based advertising. These technologies enable us and our third party advertising partners to recognize you and your device, allow our Services to interact with a third party social network or platform, and help our payment processors to complete your payment instructions.
