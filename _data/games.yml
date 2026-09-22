@@ -1,0 +1,42 @@
+- slug: tilematch
+  name: Tile Match Sweet Triple Match
+  package: com.humblelogicgames.tilematch
+  page: /games/tilematch/
+  desc: Match three identical tiles to clear the board in this relaxing triple-match puzzle.
+- slug: sudoku
+  name: Sudoku - Classic Sudoku Puzzle
+  package: com.humblelogicgames.sudoku
+  page: /games/sudoku/
+  desc: Classic number-placement sudoku with several difficulty levels, hints and daily challenges.
+- slug: solitaire
+  name: "Solitaire : Classic Card Games"
+  package: com.humblelogicgames.solitaire
+  desc: The timeless Klondike solitaire card game.
+- slug: spider
+  name: Spider Solitaire
+  package: com.humblelogicgames.spider
+  desc: Spider solitaire with one, two and four suits.
+- slug: mahjong
+  name: Mahjong Solitaire Classic
+  package: com.humblelogicgames.mahjong
+  desc: Clear the board by pairing matching mahjong tiles.
+- slug: onet
+  name: Onet Connect - Pair Matching
+  package: com.humblelogicgames.onet
+  desc: Connect pairs of identical tiles before time runs out.
+- slug: bubblepop
+  name: "Bubble Pop Burst: Bubble Shoot"
+  package: com.humblelogicgames.go.bubblepop
+  desc: Aim, shoot and pop groups of colored bubbles.
+- slug: nutsxbolts
+  name: "Nuts and Bolts : Screw Puzzle"
+  package: humblelogic.nuts.bolts.screw.an
+  desc: Unscrew the bolts in the right order to free every plate.
+- slug: wordsolitaire
+  name: "Word Solitaire : Bloom"
+  package: humblelogic.word.solitaire.an
+  desc: Build words from letter cards in a solitaire-style word game.
+- slug: arrows
+  name: "Arrows Out: Escape Puzzle"
+  package: humblelogic.arrows.out.escape.puzzle.an
+  desc: Tap arrows in the right order to clear the board.
