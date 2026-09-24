@@ -1,0 +1,20 @@
+---
+layout: default
+title: Humble Logic Games
+permalink: /
+main_class: page home
+---
+<section class="hero">
+  <h1>Minimal. Small.<br>Offline.</h1>
+  <p>Humble Logic Games is an independent studio making quiet puzzle and card games since 2020. Easy to pick up, hard to put down.</p>
+</section>
+
+<ul class="grid">
+{% for g in site.data.games %}
+  <li><a href="{{ '/games/' | append: g.slug | append: '/' | relative_url }}">
+    <img src="{{ '/assets/icons/' | append: g.slug | append: '.png' | relative_url }}" alt="" width="96" height="96" loading="lazy">
+    <span>{{ g.short }}</span>
+  </a></li>
+{% endfor %}
+</ul>
+

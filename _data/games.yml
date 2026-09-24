@@ -1,42 +1,66 @@
+# Single source for every game shown on the site.
+# name  = exact store / OAuth consent-screen name (tilematch, sudoku must match Google Cloud branding)
+# short = label on the home grid
+# pgs   = game offers optional Google Play Games sign-in
 - slug: tilematch
   name: Tile Match Sweet Triple Match
+  short: Tile Match
   package: com.humblelogicgames.tilematch
-  page: /games/tilematch/
+  apple_id: "1520359617"
+  pgs: true
   desc: Match three identical tiles to clear the board in this relaxing triple-match puzzle.
 - slug: sudoku
   name: Sudoku - Classic Sudoku Puzzle
+  short: Sudoku
   package: com.humblelogicgames.sudoku
-  page: /games/sudoku/
-  desc: Classic number-placement sudoku with several difficulty levels, hints and daily challenges.
+  apple_id: "1378548068"
+  pgs: true
+  desc: Classic number-placement sudoku, from easy to expert.
 - slug: solitaire
   name: "Solitaire : Classic Card Games"
+  short: Solitaire
   package: com.humblelogicgames.solitaire
-  desc: The timeless Klondike solitaire card game.
+  apple_id: "1611285518"
+  pgs: true
+  desc: The timeless Klondike card game.
 - slug: spider
   name: Spider Solitaire
+  short: Spider
   package: com.humblelogicgames.spider
+  apple_id: "1623506030"
+  pgs: true
   desc: Spider solitaire with one, two and four suits.
 - slug: mahjong
   name: Mahjong Solitaire Classic
+  short: Mahjong
   package: com.humblelogicgames.mahjong
   desc: Clear the board by pairing matching mahjong tiles.
 - slug: onet
   name: Onet Connect - Pair Matching
+  short: Onet
   package: com.humblelogicgames.onet
-  desc: Connect pairs of identical tiles before time runs out.
+  desc: Connect pairs of identical tiles to clear the board.
 - slug: bubblepop
   name: "Bubble Pop Burst: Bubble Shoot"
+  short: Bubble Pop
   package: com.humblelogicgames.go.bubblepop
+  apple_id: "6447500106"
   desc: Aim, shoot and pop groups of colored bubbles.
 - slug: nutsxbolts
   name: "Nuts and Bolts : Screw Puzzle"
+  short: Nuts & Bolts
   package: humblelogic.nuts.bolts.screw.an
+  apple_id: "6478472426"
   desc: Unscrew the bolts in the right order to free every plate.
 - slug: wordsolitaire
   name: "Word Solitaire : Bloom"
+  short: Word Solitaire
   package: humblelogic.word.solitaire.an
-  desc: Build words from letter cards in a solitaire-style word game.
+  apple_id: "6760325086"
+  desc: A cozy word card game. Find the words that belong together.
 - slug: arrows
-  name: "Arrows Out: Escape Puzzle"
+  name: Amaze OUT!
+  short: Amaze OUT!
   package: humblelogic.arrows.out.escape.puzzle.an
-  desc: Tap arrows in the right order to clear the board.
+  apple_id: "6763499048"
+  desc: An arrow tap puzzle with hand-curated levels.

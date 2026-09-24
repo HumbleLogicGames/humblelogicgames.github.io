@@ -9,7 +9,7 @@ HumbleLogicGames is dedicated to transparency, data privacy, and security, and f
 
 If you have any concerns, please contact us using the methods provided in the Contact Us section of this document. If you disagree with your information being used as described in this Privacy Policy, please do not install or use the Services.
 
-This Privacy Policy was last updated on Mar 19, 2026
+This Privacy Policy was last updated on Sep 24, 2026
 
 
 ### Information Collection
@@ -58,6 +58,14 @@ Facebook: https://www.facebook.com/about/privacy/
 Game Center: https://www.apple.com/legal/privacy/en-ww/
 Google Play Games: https://www.google.com/policies/privacy/
 
+
+### Google Play Games Services
+Some of our games (Tile Match Sweet Triple Match, Sudoku - Classic Sudoku Puzzle, Solitaire : Classic Card Games and Spider Solitaire) offer optional sign-in with Google Play Games Services. Signing in is never required to play. If you choose to sign in, the game uses your Google account only to:
+
+- record your achievements and leaderboard scores;
+- in games that support it (Tile Match Sweet Triple Match and Sudoku - Classic Sudoku Puzzle), save your game progress to your Google account (Play Games "Saved Games", stored in the app's private Google Drive data folder) so you can continue on another device or after reinstalling, and restore it later.
+
+We do not read your email address, contacts, files or any other Google account data, and we do not transfer this data to third parties or use it for advertising. You can remove a game's access and its saved data at any time from your Google account settings, or by contacting us.
 
 ### Other Usage and Sharing
 The other main way that we use and share information is for marketing and advertising reasons. This usage is described in more detail below. We do not sell your information.
@@ -185,4 +193,4 @@ We commit to provide information to our users before using their information for
 
 ### Contact Us
 If you have any questions or concerns about this Privacy Policy, including to exercise any of your rights, there are several ways to contact us:
- email to apps@humblelogicgames.com;
+ email to humblelogicgames@gmail.com;

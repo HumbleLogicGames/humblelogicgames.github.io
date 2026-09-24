@@ -1,0 +1,27 @@
+---
+layout: default
+main_class: page prose
+---
+{% assign g = site.data.games | where: "slug", page.slug | first %}
+<div class="game-head">
+  <img src="{{ '/assets/icons/' | append: g.slug | append: '.png' | relative_url }}" alt="{{ g.name }} icon" width="96" height="96">
+  <div>
+    <h1>{{ g.name }}</h1>
+    <p class="lede">{{ g.desc }}</p>
+  </div>
+</div>
+<p class="stores">
+  <a class="btn" href="https://play.google.com/store/apps/details?id={{ g.package }}">Google Play</a>
+  {% if g.apple_id %}<a class="btn" href="https://apps.apple.com/app/id{{ g.apple_id }}">App Store</a>{% endif %}
+</p>
+
+{{ content }}
+
+
+<h2>Support and policies</h2>
+<ul>
+  <li>Support: <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+  <li><a href="{{ '/docs/privacypolicy' | relative_url }}">Privacy Policy</a></li>
+  <li><a href="{{ '/docs/termsofservice' | relative_url }}">Terms of Service</a></li>
+  <li>Developer: <a href="{{ '/' | relative_url }}">{{ site.title }}</a></li>
+</ul>

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% assign page_title = page.title | default: site.title %}
+  <title>{% if page.url == "/" %}{{ site.title }} — {{ site.tagline }}{% else %}{{ page_title }} · {{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <meta name="theme-color" content="#fafaf8" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#141414" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+</head>
+<body>
+  <header class="top">
+    <a class="mark" href="{{ '/' | relative_url }}"><span class="dot" aria-hidden="true"></span>{{ site.title }}</a>
+  </header>
+  <main class="{{ page.main_class | default: 'page' }}">
+{{ content }}
+  </main>
+  <footer class="foot">
+    <nav>
+      <a href="{{ '/' | relative_url }}">Games</a>
+      <a href="{{ '/docs/privacypolicy' | relative_url }}">Privacy</a>
+      <a href="{{ '/docs/termsofservice' | relative_url }}">Terms</a>
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    </nav>
+    <p>© 2020–{{ site.time | date: '%Y' }} {{ site.title }}</p>
+  </footer>
+</body>
+</html>

@@ -1,2 +1,14 @@
-title: HumbleLogicGames
-theme: minima
+title: Humble Logic Games
+tagline: Minimal, small, offline puzzles
+description: Humble Logic Games is an independent studio making minimal, small, offline puzzle and card games for Android and iOS.
+email: humblelogicgames@gmail.com
+url: https://humblelogicgames.github.io
+markdown: kramdown
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+  - jekyll-relative-links
+exclude:
+  - duplicate.py
+  - README.md
