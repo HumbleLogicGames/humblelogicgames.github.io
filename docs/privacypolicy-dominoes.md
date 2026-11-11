@@ -13,7 +13,7 @@ This page was last updated on Nov 11, 2026.
 - Player records are deleted 400 days after your last connection unless you delete them sooner.
 - Weekly leaderboards are deleted after 40 days. All-time leaderboard entries are kept for up to 5 years unless you delete them sooner.
 - Reports about offensive player names are kept for as long as necessary to enforce our rules and prevent abuse. They identify players by a one-way hashed ID and include the reported display name.
-- Google Analytics event data is kept for up to 14 months. Copies we export for analysis are identified only by the install ID and are deleted after 14 months.
+- Google Analytics user-level data is kept for 2 months. Copies we export for analysis are identified only by the install ID and are deleted after 90 days. We may keep aggregated statistics that do not identify any install ID.
 - Server backups are overwritten within 7 days.
 
 **How to delete your data.** Open OPTIONS and tap DELETE MY DATA. This immediately removes the player records and leaderboard entries linked to your install ID from our server, and clears your statistics, profile, block list, and install ID from your device. You do not need to contact us or complete the verification process in the Privacy Policy. Your device must be connected to the internet, and you must not be in an online room.
