@@ -4,3 +4,4 @@
 # intro-page build output (published to S3 by tools/subsites/publish.py)
 _subsites/
 tools/subsites/shared_distribution.txt
+__pycache__/
