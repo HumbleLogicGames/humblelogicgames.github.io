@@ -36,7 +36,7 @@
       box.innerHTML =
         '<div class="player-frame"><iframe title="Game" allow="autoplay; fullscreen; gamepad" allowfullscreen></iframe></div>' +
         '<div class="player-bar"><button type="button" class="fs">⛶ Full screen</button>' +
-        '<a class="tab" href="' + btn.getAttribute('href') + '">Open in its own tab ↗</a></div>';
+        '<a class="tab" href="' + btn.getAttribute('href') + '" target="_blank" rel="noopener">Open in a new tab ↗</a></div>';
       var hero = document.querySelector('.hero');
       hero.parentNode.insertBefore(box, hero.nextSibling);
       var f = box.querySelector('iframe');
