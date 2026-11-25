@@ -12,3 +12,4 @@ plugins:
 exclude:
   - duplicate.py
   - README.md
+  - tools

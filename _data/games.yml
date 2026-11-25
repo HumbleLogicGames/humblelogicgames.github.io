@@ -9,6 +9,7 @@
   apple_id: "1520359617"
   pgs: true
   desc: Match three identical tiles to clear the board in this relaxing triple-match puzzle.
+  amazon_asin: "B09BF794Q6"
 - slug: sudoku
   name: Sudoku - Classic Sudoku Puzzle
   short: Sudoku
@@ -16,6 +17,7 @@
   apple_id: "1378548068"
   pgs: true
   desc: Classic number-placement sudoku, from easy to expert.
+  amazon_asin: "B0989BCGJM"
 - slug: solitaire
   name: "Solitaire : Classic Card Games"
   short: Solitaire
@@ -23,6 +25,7 @@
   apple_id: "1611285518"
   pgs: true
   desc: The timeless Klondike card game.
+  amazon_asin: "B09TFNFCDR"
 - slug: spider
   name: Spider Solitaire
   short: Spider
@@ -30,37 +33,57 @@
   apple_id: "1623506030"
   pgs: true
   desc: Spider solitaire with one, two and four suits.
+  amazon_asin: "B09ZDG1MBQ"
 - slug: mahjong
   name: Mahjong Solitaire Classic
   short: Mahjong
   package: com.humblelogicgames.mahjong
   desc: Clear the board by pairing matching mahjong tiles.
+  amazon_asin: "B09BF5D517"
 - slug: onet
   name: Onet Connect - Pair Matching
   short: Onet
   package: com.humblelogicgames.onet
   desc: Connect pairs of identical tiles to clear the board.
+  amazon_asin: "B09BHMDCD9"
 - slug: bubblepop
   name: "Bubble Pop Burst: Bubble Shoot"
   short: Bubble Pop
   package: com.humblelogicgames.go.bubblepop
   apple_id: "6447500106"
   desc: Aim, shoot and pop groups of colored bubbles.
+  amazon_asin: "B0C33GL6KG"
 - slug: nutsxbolts
   name: "Nuts and Bolts : Screw Puzzle"
   short: Nuts & Bolts
   package: humblelogic.nuts.bolts.screw.an
   apple_id: "6478472426"
   desc: Unscrew the bolts in the right order to free every plate.
+  amazon_asin: "B0CW18NRVF"
 - slug: wordsolitaire
   name: "Word Solitaire : Bloom"
   short: Word Solitaire
   package: humblelogic.word.solitaire.an
   apple_id: "6760325086"
   desc: A cozy word card game. Find the words that belong together.
+  amazon_asin: "B0GTNKC2LV"
 - slug: arrows
   name: Amaze OUT!
   short: Amaze OUT!
   package: humblelogic.arrows.out.escape.puzzle.an
   apple_id: "6763499048"
   desc: An arrow tap puzzle with hand-curated levels.
+  amazon_asin: "B0GX36SCVC"
+- slug: dominoes
+  name: "Dominoes LoFi: Domino Online"
+  short: Dominoes
+  package: humblelogic.dominoes.lofi3d
+  apple_id: "6831823534"
+  desc: Classic dominoes online with friends, in 2v2 teams, or against fair AI rivals.
+  amazon_asin: "B0HQX6JVWR"
+- slug: decodit
+  name: "DECODiT - Decrypt Crossword"
+  short: DECODiT
+  apple_id: "6476165996"
+  desc: Crack the number code letter by letter to reveal the hidden quote.
+  amazon_asin: "B0CTGT91BF"

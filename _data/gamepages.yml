@@ -1,0 +1,251 @@
+# Content for each game's intro page at <host>.humblelogicgames.com (built by tools/subsites/build.py).
+# Keys match _data/games.yml slug. Store links and names come from games.yml.
+#   host     = subdomain (amazeout for arrows: "Arrows" is the disputed trademark word)
+#   genre    = short label under the title
+#   video    = YouTube id (empty = no video yet, page shows screenshots/nothing)
+#   tagline  = one line under the title
+#   about    = 1–2 short paragraphs
+#   howto    = how to play, 3–4 bullets
+#   features = 4–6 bullets
+#   play     = true only for games whose web build is public (Play in browser button)
+#   theme    = deep (hero background), acc (highlight), pat (hero pattern: felt grid dots bubbles stripes web)
+
+dominoes:
+  host: dominoes
+  theme: {deep: "#24403b", acc: "#f0a35e", pat: felt}
+  genre: Board · Online
+  video: qw1VDXt3Rp4
+  play: true
+  # invite links (/?room=) show these og tags: kept identical to the live page's preview (Korean, same for everyone;
+  # a static page can't switch language per viewer)
+  og_title: "도미노 LoFi - 도미노 게임에 초대합니다"
+  og_desc: "친구가 도미노 게임에 초대했어요! 링크를 누르면 바로 같은 방으로 들어갑니다. 설치 없이 브라우저에서 무료로 플레이."
+  og_image: /og.png
+  og_image_size: {width: 600, height: 600}
+  play_url: play.html   # domino publish_web.sh: game at /play.html, /?room= jumps straight to it
+  tagline: Classic dominoes on a cozy pixel-art 3D table.
+  about:
+    - The tile game you grew up with, in a warm low-fi world. Play a quick round against friendly AI, team up two against two, or open a private room and send the link to a friend.
+    - Six rivals with their own styles, and every one of them plays fair. None of them ever peeks at your tiles.
+  howto:
+    - Match the numbers on the open ends to grow the line.
+    - Can't play? Draw from the boneyard or pass, depending on the mode.
+    - Empty your hand first to win the round.
+    - Reach the target score to win the match.
+  features:
+    - Draw, Block and All Fives
+    - Online quick match, private rooms and 2v2 teams
+    - Six fair AI rivals, from Rookie to Iris
+    - Play in the browser or in the app
+
+sudoku:
+  host: sudoku
+  theme: {deep: "#26365a", acc: "#8fd3a8", pat: grid}
+  genre: Puzzle · Numbers
+  video: xc7cJb1KrXw
+  tagline: The classic nine-by-nine, done cleanly.
+  about:
+    - No clutter, no noise. Just you, a pencil mark or two, and that quiet click when the last number drops into place.
+    - Start with gentle warm-ups and work your way up to expert grids that really make you think. Every puzzle has exactly one solution.
+  howto:
+    - Fill every row, column and 3×3 box with the numbers 1 to 9.
+    - Each number appears only once in every row, column and box.
+    - Use pencil marks to note the numbers a cell could still take.
+  features:
+    - Five difficulty levels, from Picnic to Expert
+    - Smart hints that teach you the technique
+    - Unlimited undo and redo
+    - Plays offline, saves automatically
+
+mahjong:
+  host: mahjong
+  theme: {deep: "#0f4e4a", acc: "#ff7a66", pat: felt}
+  genre: Puzzle · Tiles
+  video: ""
+  tagline: A timeless tile puzzle, calm and clear.
+  about:
+    - Find matching pairs, open up the layout and clear the whole stack. It looks simple, and then the stack starts asking you to plan ahead.
+    - More than a thousand boards, from small warm-ups to tall towers.
+  howto:
+    - Tap two matching tiles to remove them.
+    - A tile is free when nothing sits on top of it and its left or right side is open.
+    - Clear every tile to finish the board.
+  features:
+    - Over 1,000 boards
+    - Free hints and unlimited undo
+    - Several layouts and backgrounds
+    - Plays offline on phone and tablet
+
+solitaire:
+  host: solitaire
+  theme: {deep: "#0b5a34", acc: "#f2c14e", pat: felt}
+  genre: Card · Solitaire
+  video: ""
+  tagline: Klondike solitaire, the way it should feel.
+  about:
+    - The card game everyone knows, made smooth, fast and satisfying. Deal, stack and clear the table one smart move at a time.
+    - Turn one card for a relaxed game or three for a real test, and choose winnable deals when you want a game that can always be solved.
+  howto:
+    - Build down the columns in alternating colors, King to Ace.
+    - Move Aces to the foundations and build each suit up to the King.
+    - Draw from the stock when you run out of moves.
+  features:
+    - Draw 1 and Draw 3
+    - Winnable deals
+    - Smart hints and unlimited undo
+    - Vegas scoring and personal statistics
+    - Custom card faces, backs and backgrounds
+
+spider:
+  host: spider
+  theme: {deep: "#142f27", acc: "#a9e3c4", pat: web}
+  genre: Card · Solitaire
+  video: ""
+  tagline: Eight columns, a full deck and one good plan.
+  about:
+    - Start with one suit to unwind, or take on four suits when you want a real challenge. Every cleared run feels earned.
+    - Big, easy-to-read cards, tap-to-move and daily challenges that keep you coming back.
+  howto:
+    - Build runs from King down to Ace in the same suit.
+    - A full run from King to Ace clears itself from the table.
+    - Deal a new row from the stock when you are stuck.
+  features:
+    - 1, 2 and 4 suit difficulties
+    - Daily challenges with trophies
+    - Unlimited hints and undo
+    - Right- or left-handed layout
+    - Plays offline
+
+tilematch:
+  host: tilematch
+  theme: {deep: "#a8394f", acc: "#ffd36b", pat: dots}
+  genre: Puzzle · Match 3
+  video: LHI8Gut7_yg
+  tagline: Tap three matching tiles and watch them pop.
+  about:
+    - Sweet colors, calm pacing and level after level to clear. It's the kind of puzzle you open for one level and close forty levels later.
+    - Easy to start, and the boards grow trickier the further you go.
+  howto:
+    - Tap a tile to move it into the tray at the bottom.
+    - Three of the same tile in the tray clear together.
+    - Clear the board before the tray fills up.
+  features:
+    - Hundreds of levels
+    - Calm, relaxing pace
+    - Small download, light on battery
+    - Plays offline
+
+onet:
+  host: onet
+  theme: {deep: "#3a2c66", acc: "#ffb347", pat: dots}
+  genre: Puzzle · Pairs
+  video: 6q_gqYXJrYM
+  tagline: Spot two matching tiles and connect them.
+  about:
+    - Quick eyes and a little strategy go a long way in this fast, cheerful pair-matching puzzle.
+    - Cute animals, fresh fruit, cakes and toys. Thousands of pictures turn up level by level.
+  howto:
+    - Tap two matching tiles to connect them.
+    - The line between them can turn at most twice and can't cross other tiles.
+    - Clear the board before time runs out.
+  features:
+    - Simple rules, fast rounds
+    - Thousands of tile pictures
+    - Saves automatically
+    - Plays offline
+
+bubblepop:
+  host: bubblepop
+  theme: {deep: "#1a2a6c", acc: "#ff6fae", pat: bubbles}
+  genre: Arcade · Bubble shooter
+  video: iJ-t5M-2JPA
+  tagline: Aim, bounce and burst.
+  about:
+    - Line up your shots, clear the colors and drop whole clusters at once. Simple to play, hard to put down.
+    - Plan your angle off the walls, and every level asks for a slightly different strategy.
+  howto:
+    - Drag to aim and release to shoot.
+    - Match three or more bubbles of the same color to pop them.
+    - Pop the bubbles holding a cluster up and the whole cluster falls.
+  features:
+    - Hundreds of levels
+    - Daily missions and rewards
+    - Bank shots off the walls
+    - Plays offline
+
+nutsxbolts:
+  host: nutsxbolts
+  theme: {deep: "#3b2f27", acc: "#e9a33d", pat: stripes}
+  genre: Puzzle · Logic
+  video: ""
+  tagline: Twist, pull and drop.
+  about:
+    - Figure out which screw comes out first and watch the plates fall away. A tidy little brain teaser that rewards careful thinking.
+    - Each level adds new pieces and new ways to get stuck, and a satisfying moment when it all comes apart.
+  howto:
+    - Tap a screw to pull it out, then tap an empty hole to put it back in.
+    - Free every plate so it drops off the board.
+    - Plan the order. One wrong screw can block the way.
+  features:
+    - Hundreds of hand-built levels
+    - Steady difficulty curve
+    - Hints when you're stuck
+    - Plays offline
+
+wordsolitaire:
+  host: wordsolitaire
+  theme: {deep: "#5a3550", acc: "#f5a9bd", pat: dots}
+  genre: Word · Card
+  video: ""
+  tagline: A cozy word game with a solitaire soul.
+  about:
+    - Flip cards from the deck and group the words by their hidden connection. No timer, no pressure, just the small joy of "of course they go together".
+    - It feels like a word association puzzle and a game of solitaire at the same time.
+  howto:
+    - Flip cards from the deck one at a time.
+    - Spot the hidden connection between the words.
+    - Group them into the right category to clear it.
+    - Clear every category to finish the level.
+  features:
+    - Hundreds of hand-made categories
+    - No timer, play at your own pace
+    - No ads in the middle of a level
+    - Plays offline
+
+arrows:
+  host: amazeout
+  theme: {deep: "#0d0e14", acc: "#4be3c1", pat: grid}
+  genre: Puzzle · Logic
+  video: ""
+  tagline: One more level. Just one more.
+  about:
+    - A minimalist logic puzzle. Tap arrows to slide them out of the grid, in the right order, one by one.
+    - No timers, no coins, no power-ups. Just clean logic and that moment when the whole board clicks.
+  howto:
+    - Tap an arrow to slide it the way it points.
+    - An arrow with another in its way has to wait its turn.
+    - Clear every arrow to solve the level.
+  features:
+    - Thousands of hand-curated levels
+    - Small grids to huge ones
+    - Custom colors, dark and light mode
+    - Plays offline
+
+decodit:
+  host: decodit
+  theme: {deep: "#1d1d1f", acc: "#ffd400", pat: grid}
+  genre: Word · Cryptogram
+  video: ""
+  tagline: Crack the code, reveal the quote.
+  about:
+    - A word puzzle in the spirit of the classic cryptogram. Every letter has been swapped for a number. Work out which is which and the hidden sentence appears.
+    - Each solved puzzle reveals a fun fact, and you pick up new English words along the way.
+  howto:
+    - Each number stands for one letter.
+    - Fill in a letter and it appears everywhere that number is used.
+    - Use the words you can guess to crack the rest.
+  features:
+    - Fun facts in every puzzle
+    - Great for building English vocabulary
+    - Hints when you're stuck
+    - Plays offline
