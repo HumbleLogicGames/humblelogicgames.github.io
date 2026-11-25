@@ -11,6 +11,7 @@ Usage:  python3 tools/subsites/build.py            # all games
         python3 tools/subsites/build.py sudoku     # one game (slug)
 Nothing is uploaded. Publishing is a separate, approved step.
 """
+import hashlib
 import html
 import shutil
 import sys
@@ -27,6 +28,12 @@ APPSTORE = "https://apps.apple.com/app/id"
 AMAZON = "https://www.amazon.com/dp/"
 
 e = html.escape
+HERE = Path(__file__).resolve().parent
+
+
+def ver(name):
+    """Short content hash for cache busting (assets are cached for a day)."""
+    return hashlib.sha1((HERE / name).read_bytes()).hexdigest()[:8]
 
 
 def load():
@@ -124,7 +131,7 @@ def page(slug, games, pages, root=False):
   <link rel="icon" href="{I}{e(slug)}.png">
   <link rel="apple-touch-icon" href="{I}{e(slug)}.png">
   <link rel="preload" href="{A}fonts/jakarta-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="{A}sub.css">
+  <link rel="stylesheet" href="{A}sub.css?v={ver('sub.css')}">
 </head>
 <body>
   <header class="hero pat-{e(pat)}">
@@ -177,7 +184,7 @@ def page(slug, games, pages, root=False):
     </nav>
     <p>© 2020–2026 Humble Logic Games</p>
   </footer>
-  <script src="{A}sub.js"></script>
+  <script src="{A}sub.js?v={ver('sub.js')}"></script>
 </body>
 </html>
 '''

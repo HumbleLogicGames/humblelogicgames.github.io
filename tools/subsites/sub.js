@@ -20,3 +20,35 @@
     }, { once: true });
   });
 })();
+
+// PC: play the web game inside the page (iframe). Phones/tablets keep the full-page game (play.html).
+(function () {
+  var btn = document.getElementById('play');
+  if (!btn || !window.matchMedia('(pointer: fine) and (min-width: 900px)').matches) return;
+  btn.addEventListener('click', function (ev) {
+    if (ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.button) return;   // new-tab clicks behave as normal links
+    ev.preventDefault();
+    var box = document.getElementById('player');
+    if (!box) {
+      box = document.createElement('section');
+      box.id = 'player';
+      box.className = 'player';
+      box.innerHTML =
+        '<div class="player-frame"><iframe title="Game" allow="autoplay; fullscreen; gamepad" allowfullscreen></iframe></div>' +
+        '<div class="player-bar"><button type="button" class="fs">⛶ Full screen</button>' +
+        '<a class="tab" href="' + btn.getAttribute('href') + '">Open in its own tab ↗</a></div>';
+      var hero = document.querySelector('.hero');
+      hero.parentNode.insertBefore(box, hero.nextSibling);
+      var f = box.querySelector('iframe');
+      f.src = btn.getAttribute('href');
+      f.addEventListener('load', function () { f.focus(); });
+      box.querySelector('.fs').addEventListener('click', function () {
+        var el = box.querySelector('.player-frame');
+        (el.requestFullscreen || el.webkitRequestFullscreen || function () {}).call(el);
+        f.focus();
+      });
+      document.body.classList.add('playing');
+    }
+    box.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+})();
