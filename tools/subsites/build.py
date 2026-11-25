@@ -119,6 +119,7 @@ def page(slug, games, pages, root=False):
   <meta property="og:url" content="https://{e(p["host"])}.{DOMAIN}/">
   <meta property="og:description" content="{e(og.get("og_desc", g["desc"]))}">
   <meta property="og:image" content="https://{e(p["host"])}.{DOMAIN}{e(og.get("og_image", "/assets/icons/" + slug + ".png"))}">{og_size}
+  <meta name="twitter:card" content="summary">
   <meta name="theme-color" content="{deep}">
   <link rel="icon" href="{I}{e(slug)}.png">
   <link rel="apple-touch-icon" href="{I}{e(slug)}.png">
